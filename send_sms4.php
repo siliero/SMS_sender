@@ -21,7 +21,7 @@ if ($param == '1') {
 
 foreach($phoneNumbers as $phone) {
     try {
-        $url = '....';
+        $url = '....'; // здесь адрес sms-шлюза
         $params = http_build_query(['num' => $phone, 'msg' => $message]);
 
         $ch = curl_init();

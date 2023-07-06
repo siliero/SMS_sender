@@ -1,2 +1,4 @@
 # SMS_sender
-A small pet project written in php\js for our Helpdesk in IT to send SMS to clients
+Небольшой pet-проект написанный на php\js для нашего Helpdesk в IT для отправки СМС клиентам. Позволяет отправлять как смс по одному номеру, так и по нескольким (с одним содержанием), задержка между отправкой - 3 секунды. Кроме того есть валидация введенного номера и небольшая корректировка (в частности удаляет правит +7 в 7, 8 в 7 и удаляет некоторые символы из номеров. Отправляет смс через отдельный SMS-шлюз.
+#
+A small pet project written in php\js for our Helpdesk in IT to send SMS to clients. Allows to send sms to one number as well as to several numbers (with the same content), the delay between sending is 3 seconds. In addition there is validation of entered number and small correction (in particular removes +7 to 7, 8 to 7 and removes some characters from numbers. Sends SMS through a separate SMS gateway.
